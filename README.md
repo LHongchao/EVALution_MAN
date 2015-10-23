@@ -1,13 +1,16 @@
 # EVALution_CH
-Introduction\n
+Introduction
+
   This is a dataset for the training and evaluating Distributional Semantic Models (DSMs) on on semantic relations discrimination between words in Chinese. The dataset contains 5,400 relation pairs, distributed in four different semantic relations, including antonymy, synonymy, hypernymy, and nearsynonymy. About 300 pairs were checked manually to estimate their quality and add semantic type information. To the best of our knowledge, EVALution-CH is the first of its kind for Chinese.
 
   The dataset will be enlarged cotinously and each new version will be uploaded to a new branch.
 
   This is the version 1.0 of EVALution_CH. It includes two files: relation.txt and relata.txt;relation.txt contains 227 pairs while relata.txt contains 376 words.
 
-Format\n
+Format
+
 relation.txt
+
   NO.1 to NO.6 are information of the relata and the relatum
 1) relata_lemma:
 2) relata_pos:

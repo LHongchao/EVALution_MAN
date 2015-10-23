@@ -13,13 +13,16 @@ relation.txt
 
   NO.1 to NO.6 are information of the relata and the relatum
   
-1) relata_lemma:
+1) relata_lemma: this refers to the relata word. "Lemma" is copied from Chinese WordNet but actually Chinese has no inflection and thus we cannot say that the word is a lemma. 
 
-2) relata_pos:
+2) relata_pos: this refers to the pos of the relata. pos tag and their meanings can be found in the following link:
+
+http://app.sinica.edu.tw/kiwi/mkiwi/98-04.pdf
+
 
 3) relation_type:
 
-4) relatum_lemma:
+4) relatum_lemma: this refers to the word which is related to the relata
 
 5) relatum_pos:
 
@@ -37,10 +40,8 @@ We divided ten people into two groups and gave half of the pairs to each group. 
 7) totally agree
 8) agree
 9) not sure
-
-10) don't know X:
-
-11) don't know Y:
+10) don't know X
+11) don't know Y
 
 
 

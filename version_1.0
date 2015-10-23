@@ -1,0 +1,14 @@
+1. Introduction
+This is the version 1.0 of EVALution_CH. It includes two files: relation.txt and relata.txt.
+relation.txt contains 227 pairs while relata.txt contains 376 words.
+
+2. Format
+2.1 relation.txt
+1) relata_lemma:
+2) relata_pos:
+3) relation_type:
+4) relatum_lemma:
+5) relatum_pos:
+6) 
+
+

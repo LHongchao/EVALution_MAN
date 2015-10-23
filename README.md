@@ -15,7 +15,7 @@ Format
   
 1) relata_lemma: this refers to the relata word. "Lemma" is copied from Chinese WordNet but actually Chinese has no inflection and thus we cannot say that the word is a lemma. 
 
-2) relata_pos: this refers to the pos of the relata. pos tag and their meanings can be found in the following link:
+2) relata_pos: this refers to the POS of the relata. POS tag and their meanings can be found in the following link:
 
 http://app.sinica.edu.tw/kiwi/mkiwi/98-04.pdf
 
@@ -24,9 +24,16 @@ http://app.sinica.edu.tw/kiwi/mkiwi/98-04.pdf
 
 4) relatum_lemma: this refers to the word which is related to the relata.
 
-5) relatum_pos:
+5) relatum_pos: this refers to the POS of the relatum. POS tag and their meanings can be found in the following link:
 
-6) template:
+http://app.sinica.edu.tw/kiwi/mkiwi/98-04.pdf
+
+6) template: This transfer the relata,relation type and relatum into a sentence in the following format:
+
+  正式 和 非正式 意思相反
+  
+  "Formal and informal have the opposite meaning."
+
 
   NO.8 to NO.11 are information of the relation annotation.We asked 10 linguistics Ph.D. students to do the manual annotation.
 We divided ten people into two groups and gave half of the pairs to each group. The subjects were given sentences with pairs in them such as:

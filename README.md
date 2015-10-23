@@ -20,9 +20,9 @@ relation.txt
 http://app.sinica.edu.tw/kiwi/mkiwi/98-04.pdf
 
 
-3) relation_type:
+3) relation_type: the dataset contains four different relationships: synonymy, nearsynonymy, antonymy, hyponymy, meronymy
 
-4) relatum_lemma: this refers to the word which is related to the relata
+4) relatum_lemma: this refers to the word which is related to the relata.
 
 5) relatum_pos:
 

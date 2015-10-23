@@ -5,7 +5,7 @@ Introduction
 
   The dataset will be enlarged cotinously and each new version will be uploaded to a new branch.
 
-  This is the version 1.0 of EVALution_MAN. It includes two files: relation.txt and relata.txt;relation.txt contains 227 pairs while relata.txt contains 376 words.
+  This is the version 1.0 of EVALution_MAN. It includes two files: relation.txt and relata.txt;relation.txt contains 227 pairs while relata.txt contains 373 words.
 
 Format
 

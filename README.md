@@ -1,16 +1,23 @@
 # EVALution_MAN
 1.Introduction
-This is a dataset for the training and evaluating Distributional Semantic Models (DSMs) on on semantic relations discrimination between words in Chinese. The dataset contains 5,400 relation pairs, distributed in four different semantic relations, including antonymy, synonymy, hypernymy, and nearsynonymy. About 300 pairs were checked manually to estimate their quality and add semantic type information. To the best of our knowledge, EVALution-CH is the first of its kind for Chinese.
+This is a dataset for the training and evaluating Distributional Semantic Models (DSMs) on on semantic relations discrimination between words in Chinese. The dataset contains 360 positive relation pairs, distributed in four different semantic relations, including antonymy, synonymy, hypernymy, and nearsynonymy. About 300 pairs were checked manually to estimate their quality and add semantic type information. To the best of our knowledge, EVALution-CH is the first of its kind for Chinese.
 
 The dataset will be enlarged cotinously and each new version will be uploaded to a new branch.
 
-This is the version 1.0 of EVALution_MAN. It includes two files: relation.txt and relata.txt;relation.txt contains 227 pairs while relata.txt contains 373 words.
+This is the version 1.0 of EVALution_MAN. It includes two groups of files: one is the relation group which contains the information of relation pairs; the other is the relata group which contains the information of relata. Each group contains two files according to the mannual rating and tagging task naming positive_relation.txt, negative_relation.txt and positive relata.txt, negative_relata.txt.
+
+For relation group, Only pairs that had at least three positive ratings (“totally agree”, and “agree”) can be included into the positive_relation.txt.The rest ones will be included into negative results. Finally, we got 360 positive pairs and 132 negative_relation.txt.
+
+For the relata group, only the tags with two or more votes will be treated as positive results and we got 373 relata in positive_relata.txt and 3 in negative_relata.txt.
+
+The format of relation group's files is the same while it is also the case for the relata group.
+
 
 2.Format
 
-2.1 relation.txt
+2.1 relation group
 
-This dataset contains the relation pairs with annoatation information of whether the relation is reliable or not and the relata's semantic field information.
+These two datasets (positive_relation.txt and negative_relation.txt) contains the relation pairs with annoatation information of whether the relation is reliable or not.
 
 NO.1 to NO.6 are information of the relata and the relatum
   
@@ -47,25 +54,7 @@ They were required to rate each statement according to ‘totally agree’, ‘a
   
 (7) totally agree;(8) agree;(9) not sure;(10) don't know X;(11) don't know Y
 
-NO.12 to NO. are information of relata's semantic field tagging by Ph.D. students major in linguistics to do the tagging and they are required to select tags from the following ones:
 
-First group: choose one or more
-
-(12)Basic, (13)Subordinate and (14)Superordinate;
-
-Second group: choose one
-
-(15)General and (16)Specific;
-
-Third group: choose one
-
-(17)Abstract and (18)Concrete;
-
-Fourth group: choose one or more
-
-(19)Event, (20)Time, (21)Space, (22)Object, (23)Animal, (24)Plant, (25)Food, (26)Color, (27)People and (28)Attribute.
-
-Only the tags with two or more votes will be treated as positive results.
 
 2.2 relata.txt
 
@@ -79,7 +68,25 @@ This dataset contains the relata's frequency in a combined corpus of SINCIA and 
 
 (4) pos_distr: this refers to the word's pos distribution with a format of Nc_15496/A_1384/Na_12192/VA_1.
 
-NO.5 to NO. 21 is the same with NO.12 to 28 in relation.txt
+NO.5 to NO.21 are information of relata's semantic field tagging by Ph.D. students major in linguistics to do the tagging and they are required to select tags from the following ones:
+
+First group: choose one or more
+
+(5)Basic, (6)Subordinate and (7)Superordinate;
+
+Second group: choose one
+
+(8)General and (9)Specific;
+
+Third group: choose one
+
+(10)Abstract and (11)Concrete;
+
+Fourth group: choose one or more
+
+(12)Event, (13)Time, (14)Space, (15)Object, (16)Animal, (17)Plant, (18)Food, (19)Color, (20)People and (21)Attribute.
+
+Only the tags with two or more votes will be treated as positive results.
 
 
 

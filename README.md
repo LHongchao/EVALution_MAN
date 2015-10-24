@@ -56,9 +56,9 @@ They were required to rate each statement according to ‘totally agree’, ‘a
 
 
 
-2.2 relata.txt
+2.2 relata group
 
-This dataset contains the relata's frequency in a combined corpus of SINCIA and GigaaWord and the semantic filed of the relata and their relatum both with POS extracted from relation.txt excluding the repeated ones.
+These two datasets (including the positive_relata.txt and the negative_relata.txt) contains the relata's frequency in a combined corpus of SINCIA and GigaaWord and the semantic filed of the relata and their relatum both with POS extracted from positive_relation.txt excluding the repeated ones.
 
 (1) relata: this refers to the word extracted from relation.txt including the relata and relatum without repeating.
 

@@ -6,6 +6,9 @@
   
   You can find the dataset here:
   https://github.com/jiye12yuran/EVALution_MAN/tree/Version_1.0
+  
+  You can find the version 2.0 here:
+  https://github.com/LHongchao/EVALution_MAN/blob/Version2.0/pairs.txt
 
 
 
